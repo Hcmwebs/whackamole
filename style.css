@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(34, 147, 147);
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.header h1,h2{
+  margin-bottom: 0.5rem;
+
+}
+.header p{
+  font-size: 25px;
+  text-align: center;
+
+}
+
+
+.grid{
+  width: 320px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:5px;
+
+
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(241, 235, 235);
+}
+
+.mole{
+  background:url(./Darth-Vader.jpeg)no-repeat center center;
+  background-size: cover;
+}

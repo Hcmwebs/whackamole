@@ -46,8 +46,7 @@ h2 {
 .square {
   width: 100px;
   height: 100px;
-  background-color: rgba(145, 34, 34, 1.0);
-
+  background-color: rgba(145, 34, 34, 1);
 }
 
 .mole {
@@ -70,6 +69,6 @@ h2 {
 }
 .btn:hover {
   box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.4);
-  background-color: rgba(145, 34, 34, 1.0);
+  background-color: rgba(145, 34, 34, 1);
   transform: scale(0.98);
 }

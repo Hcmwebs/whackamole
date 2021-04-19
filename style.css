@@ -45,7 +45,6 @@ h2 {
 .square {
   width: 100px;
   height: 100px;
-  border: 1px solid rgba(255, 255, 255, 1);
   margin: 2.5px;
   background-color: rgba(145, 34, 34, 1);
 }
